@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@400;600&display=swap');
 
 .titulo {
     color:blue;
@@ -87,3 +89,65 @@
     margin: 0px;
 }
 
+
+
+.tabla-posiciones {
+    background-image: url("assets/blue_background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.titulo-tabla {
+    color: white;
+    text-align: center;
+    padding-top: 13px;
+    margin: 0px;
+    font-family: 'Kanit', sans-serif;
+    margin-bottom: -14px;
+}
+
+.subtitulo-tabla {
+    color: white;
+    text-align: center;
+    margin: 0;
+    font-size: 24px;
+    font-family: 'Kanit', sans-serif;
+}
+
+.linea-tabla {
+    margin-top: 30px;
+    padding: 1px;
+    width: 300px;
+    margin: auto;
+    margin-top: 30px;
+    background: linear-gradient(90deg, rgb(220 219 224) 0%, rgb(64 64 166) 35%, rgb(85 177 196) 100%);
+    filter: opacity(0.4);
+}
+
+table {
+    width: 100%;
+    margin-top: 20px;
+    color: white;
+}
+
+.encabezados {
+    filter: opacity(0.8);
+    background: linear-gradient(90deg, #003fbb 0%, #0077ee 35%, #009ce3 100%);
+}
+
+table, th, td {
+    border-collapse: collapse;
+  }
+
+  th {
+      padding: 5px;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      font-family: 'Kanit', sans-serif;
+      border-bottom: 3px solid #2592c4;
+  }
+
+  .bandera {
+      width: 50px;
+  }
+  
