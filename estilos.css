@@ -2,13 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Kanit:wght@400;600&display=swap');
 
-.titulo {
-    color:blue;
-    padding: 40px;
-}
-
-.foto-perfil {
-    width: 200px;
+.titulo {color:blue;padding: 40px;}.foto-perfil{width: 200px;
     height: auto;
     padding: 20px;
     margin: auto;
@@ -149,5 +143,21 @@ table, th, td {
 
   .bandera {
       width: 50px;
+  }
+
+  .button-jp {
+        border-radius: 5px;
+        background: #1877f2;
+        color: white;
+        border: 1px solid #6b82ff;
+        width: 200px;
+        padding: 10px;
+        font-weight: bold;
+        font-size: 20px;
+  }
+
+  .button-jp:hover {
+    background: #0a50ac;
+    cursor: pointer;
   }
   
